@@ -1,1 +1,3 @@
-num = int(input("Enter a number: "))
+num = input("Enter a number: ")
+correct_format = num.zfill(6)
+
