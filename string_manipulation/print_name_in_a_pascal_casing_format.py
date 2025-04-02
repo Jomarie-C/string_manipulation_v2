@@ -1,4 +1,2 @@
-# Pseudocode
-    # Ask the user for an input
-    # Use a function to convert the given input to a pascal casing format
-    # Print the name in a pascal casing format
+full_name = input("Enter your name: ")
+correct_format = full_name.title().replace(" ", "")
